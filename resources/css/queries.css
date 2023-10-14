@@ -1,0 +1,161 @@
+/* Big tablets to 1920px (widths smaller than the 1140px */
+@media only screen and (max-width: 1200px) {
+    .ivras-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* Small tables to big tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    header {
+        height: 75vh;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 10px 0;
+    }
+
+    
+
+}
+
+/* Small phones and tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+    section {
+        padding: 10px 0;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .row {
+        padding: 0 1%;
+    }
+
+    header {
+        height: 70vh;
+    }
+
+    .long-copy {
+        font-size: 109%;
+        line-height: 150%;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 10px;
+        text-align: justify;
+        letter-spacing: 2px;
+    }
+
+    .main-nav {
+        list-style: none;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .main-nav li {
+        display: block;
+        font-weight: 300;
+        margin-bottom: 10px;
+
+    }
+
+    .img-big {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+/* Samll phones: from 321 to 480px */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 10px 0;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .row {
+        padding: 0 1%;
+    }
+
+    header {
+        height: 70vh;
+    }
+
+    .img-big {
+        width: 10%;
+        margin-left: 45%;
+    }
+
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        display: inline-block;
+        padding: 5px 5px;
+        font-weight: 400;
+        text-decoration: none;
+        border-radius: 200px;
+        color: #fff;
+        letter-spacing: 1px;
+        -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
+    }
+
+}
+
+/* Samll phones: from 0 to 320px */
+@media only screen and (max-width: 480px) {
+    .logo {
+        height: 50px;
+    }
+
+    h1 {
+        font-size: 140%;
+    }
+
+    .btn-lang:link,
+    .btn-lang:visited {
+        margin-left: 10px;
+    }
+
+    .btn-signup:link,
+    .btn-signup:visited,
+    input[type=submit] {
+        margin-left: 10px;
+    }
+
+    .long-copy {
+        font-size: 110%;
+        line-height: 125%;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+        text-align: justify;
+
+      }
+
+    .box p {
+        font-size: 120%;
+        line-height: 125%;
+        text-align: justify;
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        
+      }
+
+      .ivras-text-box{
+        padding: 0 4%;
+    }
+}
